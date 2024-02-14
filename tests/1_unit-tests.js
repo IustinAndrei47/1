@@ -5,9 +5,8 @@ suite('Unit Tests', function () {
   suite('Basic Assertions', function () {
     // #1
     test('#isNull, #isNotNull', function () {
-  assert.isNull(null, 'this is an optional error description - e.g. null is null');
-  assert.isNotNull(1, '1 is not null');
-});
+      assert.isNull(null, 'this is an optional error description - e.g. null is null');
+      assert.isNotNull(1, '1 is not null');
     });
     // #2
     test('#isDefined, #isUndefined', function () {
@@ -164,6 +163,4 @@ suite('Unit Tests', function () {
       assert.fail(myCar.wheels, String);
     });
   });
-
-  // -----------------------------------------------------------------------------
 });
